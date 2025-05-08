@@ -2,7 +2,7 @@
 
 ## Tools
 
-- Collaborate Tool - Notion  
+- Collaborate Tool - Notion, Google Drive
 - UML Tool - StarUML
 
 ---

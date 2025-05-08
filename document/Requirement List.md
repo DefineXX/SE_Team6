@@ -1,3 +1,28 @@
+# TEAM CODE: 43827
+
+---
+
+# Roles
+
+- **김철흥**
+  
+  1. 관리자 기능에 대한 diagram 및 document 작성
+  2. 과제 요구사항 정리 및 팀원 간 파트 배분, GitHub 레포지토리 생성 및 Notion, Google Drive 스페이스 공유
+
+- **임준혁**
+  
+  1. 회원 기능에 대한 diagram 및 document 작성
+
+- **지민재**
+  
+  1. 대여소 기능에 대한 diagram 및 document 작성
+
+- **송용환**
+  
+  1. 자전거 대여 기능에 대한 diagram 및 document 작성
+
+---
+
 ## 1. 회원 기능 - 임준혁(@BuzzJune)
 
 | No. | Requirement | Use Case(s) |
