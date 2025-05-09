@@ -2,7 +2,7 @@
 
 ### 📌 회원가입
 
-| Actor action | System response |
+| Actor action(User) | System response |
 | ------------ | --------------- |
 | 1. ID, 비밀번호, 전화번호, 결제 수단, 선호 자전거 유형을 입력 |                 |
 |              | 2. 회원리스트에 해당 정보 추가 |
@@ -10,7 +10,7 @@
 
 ### 📌 탈퇴
 
-| Actor action | System response |
+| Actor action(User) | System response |
 | ------------ | --------------- |
 | 1. 탈퇴 요청 |                 |
 |              | 2. 회원리스트에서 해당 회원 데이터 제거 및 모든 이용권한 제거 |
@@ -18,7 +18,7 @@
 
 ### 📌 로그인
 
-| Actor action | System response |
+| Actor action(Member) | System response |
 | ------------ | --------------- |
 | 1. ID, 비밀번호 입력 |                 |
 |              | 2. 로그인 완료 메세지 출력 |
@@ -26,7 +26,7 @@
 
 ### 📌 로그아웃
 
-| Actor action | System response |
+| Actor action(Member) | System response |
 | ------------ | --------------- |
 | 1. 로그아웃 요청 |                 |
 |              | 2. 로그아웃 완료 메세지 출력 |
@@ -34,14 +34,14 @@
 
 ### 📌 요금 조회
 
-| Actor action | System response |
+| Actor action(User) | System response |
 | ------------ | --------------- |
 | 1. 요금 조회 요청 |                 |
 |              | 2. 대여 시간 및 요금 리스트를 출력 |
 
 ### 📌 이용 내역 조회
 
-| Actor action | System response |
+| Actor action(User) | System response |
 | ------------ | --------------- |
 | 1. 과거 대여 기록 조회 요청 |                 |
 |              | 2. 해당 회원의 대여 기록 리스트를 날짜별로 정렬하여 출력 |
@@ -54,14 +54,14 @@ Extensions: step2 이후, 회원은 대여소별 정렬한 출력을 요청할 �
 
 ### 📌 대여소 등록
 
-| Actor action | System response |
+| Actor action(Admin) | System response |
 | ------------ | --------------- |
 | 1. 대여소 이름, 위치, 보관 가능 수량, 운영 시간 등을 입력 후 대여소 등록 요청 | |
 |              | 2. 대여소 리스트에 해당 대여소 추가 |
 
 ### 📌 대여소 리스트 조회
 
-| Actor action | System response |
+| Actor action(Admin) | System response |
 | ------------ | --------------- |
 | 1. 대여소 리스트 조회 요청 |  |
 |  | 2. 등록된 대여소 목록 출력 |
@@ -70,21 +70,21 @@ Extensions: Step2 이후, 관리자는 대여소 리스트에서 특정 대여�
 
 ### 📌 대여소 상세정보 조회
 
-| Actor action | System response |
+| Actor action(Admin) | System response |
 | ------------ | --------------- |
 | 1. 대여소 상세정보 조회 요청 |                 |
 |              | 2. 등록 시 입력한 대여소 상세정보 출력 |
 
 ### 📌 자전거 등록
 
-| Actor action | System response |
+| Actor action(Admin) | System response |
 | ------------ | --------------- |
 | 1. 자전거 ID, 제품명, 유형, 소속 대여소, 상태 등을 입력 후 자전거 등록 요청 |                 |
 |              | 2. 자전거 리스트에 해당 자전거 추가 |
 
 ### 📌 자전거 리스트 조회
 
-| Actor action | System response |
+| Actor action(Admin) | System response |
 | ------------ | --------------- |
 | 1. 자전거 리스트 조회 요청 |                 |
 |              | 2. 등록된 자전거 목록 출력 |
@@ -93,14 +93,14 @@ Extensions: Step2 이후, 관리자는 자전거 리스트에서 특정 자전�
 
 ### 📌 자전거 상세정보 조회
 
-| Actor action | System response |
+| Actor action(Admin) | System response |
 | ------------ | --------------- |
 | 1. 자전거 상세정보 조회 요청 |                 |
 |              | 2. 등록 시 입력한 자전거 상세정보 출력 |
 
 ### 📌 자전거 대여 정보 조회
 
-| Actor action | System response |
+| Actor action(Admin) | System response |
 | ------------ | --------------- |
 | 1. 자전거 대여 정보 조회 요청 |                 |
 |              | 2. 정렬 기준에 따른 자전거 대여 정보 출력 |
@@ -109,7 +109,7 @@ Extensions : Step1 이전, 관리자는 자전거 대여 기록의 정렬 기준
 
 ### 📌 자전거 대여 금액 및 횟수 조회
 
-| Actor action | System response |
+| Actor action(Admin) | System response |
 | ------------ | --------------- |
 | 1. 기간별 자전거 대여 금액 조회 요청 |  |
 |  | 2. 선택 기간에 따른 자전거 대여 금액 출력 |
@@ -124,14 +124,14 @@ Extensions: Step1와 3 이전, 관리자는 조회 기간(최근 1주일, 1개�
 
 ### 📌 대여소 검색
 
-| Actor action | System response|
+| Actor action(User) | System response|
 | ------------ | --------------- |
 | 1. 이름으로 원하는 조건의 대여소 검색  |                 |
 |              | 2. 조건에 맞는 대여소 리스트 출력 |
 
 ### 📌 대여소 상세정보 조회
 
-| Actor action | System response |
+| Actor action(User) | System response |
 | ------------ | --------------- |
 | 1. 검색된 대여소 리스트 중 특정 대여소 상세정보 요청 |                 |
 |              | 2. 해당 대여소의 상세정보 화면 출력 (이름, 위치, 사용 가능 자전거 목록 등)|
@@ -140,7 +140,7 @@ Extensions :  step2 이후, 회원은 해당 대여소의 사용 가능한 자�
 
 ### 📌 자전거 즉시 대여
 
-| Actor action | System response |  Actor action (SMS) |
+| Actor action(User) | System response |  Actor action (SMS) |
 | ------------ | --------------- | --------------- |
 | 1. 상세정보 화면에서 자전거 즉시 대여 요청 |                 |
 |              | 2. 회원의 대여 리스트에 해당 자전거 대여 정보 기록 |
@@ -150,7 +150,7 @@ Extensions :  step2 이후, 회원은 해당 대여소의 사용 가능한 자�
 
 ### 📌 자전거 예약대기 신청
 
-| Actor action | System response |  Actor action (SMS) |
+| Actor action(User) | System response |  Actor action (SMS) |
 | ------------ | --------------- | ---------------|
 | 1. 상세정보 화면에서 자전거 예약 대기 요청 |                 |
 |              | 2. 회원의 예약 대기 리스트에 해당 자전거 정보 기록 |
@@ -164,7 +164,7 @@ Extensions :  step2 이후, 회원은 해당 대여소의 사용 가능한 자�
 
 ### 📌 대여 자전거 조회
 
-| Actor action    | System response  |
+| Actor action(User)    | System response  |
 | --------------- | ---------------- |
 | 1. 대여 자전거 조회 요청 |                  |
 |                 | 2. 회원의 대여 리스트 출력 |
@@ -173,7 +173,7 @@ Extensions :  step2 이후, 회원은 대여 중인 자전거를 선택해 반�
 
 ### 📌 대여 자전거 반납
 
-| Actor action    | System response                        |
+| Actor action(User)    | System response                        |
 | --------------- | -------------------------------------- |
 | 1. 대여 자전거 반납 요청 |                                        |
 |                 | 2. 대여 내역을 회원의 대여 리스트에서 삭제              |
@@ -184,7 +184,7 @@ Extensions :  step4 이후, 회원은 식당 예약 시스템에 접속할 수 �
 
 ### 📌 자전거 예약대기 내역 조회
 
-| Actor action         | System response    |
+| Actor action(User)         | System response    |
 | -------------------- | ------------------ |
 | 1. 자전거 예약대기 내역 조회 요청 |                    |
 |                      | 2. 회원의 예약대기 리스트 출력 |
@@ -193,7 +193,7 @@ Extensions :  step2 이후, 회원은 예약대기 내역을 선택해 취소할
 
 ### 📌 자전거 예약대기 취소
 
-| Actor action      | System response               |
+| Actor action(User)      | System response               |
 | ----------------- | ----------------------------- |
 | 1. 자전거 예약대기 취소 요청 |                               |
 |                   | 2. 예약대기 내역을 회원의 예약대기 리스트에서 삭제 |
