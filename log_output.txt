@@ -1,0 +1,42 @@
+GitHub Repository: https://github.com/DefineXX/SE_Team6
+
+[DefineXX] Fri May 9 03:31:40 2025 +0900 Use case diagram 수정 a34729f
+[DefineXX] Fri May 9 03:26:53 2025 +0900 팀원 역할 내용 추가 35a36b4
+[DefineXX] Fri May 9 03:09:08 2025 +0900 document 디렉토리 추가 7f187dc
+[DefineXX] Fri May 9 03:08:15 2025 +0900 docs: 문서 제목 수정 및 use case diagram 추가 adcc7db
+[DefineXX] Fri May 9 02:37:03 2025 +0900 Section 2 Requirement List 수정 - based on atomic feedback af40f10
+[DefineXX] Thu May 8 23:49:24 2025 +0900 Requirement List 내 통계 기능 수정 7f7bed7
+[DefineXX] Thu May 8 23:20:49 2025 +0900 Fix another line break 11a541f
+[DefineXX] Thu May 8 23:19:41 2025 +0900 Fix line break 1a80879
+[DefineXX] Thu May 8 23:16:37 2025 +0900 Section 2 Requirement List - Use case description 설계에 따른 수정 148bf07
+[DefineXX] Thu May 8 22:37:18 2025 +0900 Section 2 use case description b17ba1c
+[DefineXX] Thu May 8 21:14:14 2025 +0900 docs: Section 2 Requirement List 02532d7
+[YongHwan Song] Thu May 8 02:33:38 2025 +0900 Update Use Case Description - Section4 송용환 4793211
+[임준혁] Wed May 7 22:41:50 2025 +0900 Use Case Description - Section1 4차 수정 7181764
+[임준혁] Wed May 7 22:36:38 2025 +0900 Use Case Description - Section1 3차 수정 4737163
+[임준혁] Wed May 7 22:28:33 2025 +0900 Requirement List - Section1 2차 수정 1f79421
+[임준혁] Wed May 7 22:01:04 2025 +0900 Requirement List - Section1 1차 수정 8f35230
+[임준혁] Wed May 7 15:56:52 2025 +0900 Use Case Description - Section1 2차 수정 af77254
+[임준혁] Wed May 7 15:50:04 2025 +0900 use case description section1 1차 수정 2f99a56
+[mimizae] Wed May 7 12:54:28 2025 +0900 doc: 대여소 기능 Use Case Description 수정_1차 완성 d331c59
+[mimizae] Wed May 7 12:41:02 2025 +0900 doc: 대여소 기능 Use Case Description 수정 bf5fca0
+[mimizae] Wed May 7 11:51:00 2025 +0900 doc: 대여소 기능 Use Case Description 수정 3e529a7
+[mimizae] Wed May 7 11:40:42 2025 +0900 doc: 대여소 기능 Use Case Description 수정 1af3bc8
+[mimizae] Wed May 7 11:17:05 2025 +0900 doc: 대여소 기능 requirement list 수정 574daee
+[YongHwan Song] Tue May 6 22:36:31 2025 +0900 Update Requirement List - Section4 송용환 6f5a7dc
+[YongHwan Song] Tue May 6 22:32:48 2025 +0900 Update Use Case Description - Section4 송용환 ec2bd93
+[YongHwan Song] Tue May 6 22:29:09 2025 +0900 Update Use Case Description - Section4 송용환 f85c1c1
+[YongHwan Song] Tue May 6 22:28:56 2025 +0900 Update Requirement List - Section4 송용환 2c6e22c
+[지민재] Tue May 6 19:42:05 2025 +0900 chore: README 수정 89c9724
+[지민재] Tue May 6 19:40:06 2025 +0900 doc: 대여소 기능 requirement list 작성_지민재 0262990
+[YongHwan Song] Tue May 6 18:49:35 2025 +0900 Update Requirement List.md 2ff74ef
+[YongHwan Song] Tue May 6 18:48:57 2025 +0900 Update README.md 977f99e
+[YongHwan Song] Tue May 6 18:21:19 2025 +0900 Update Use Case Description.md a5fe778
+[YongHwan Song] Tue May 6 18:16:33 2025 +0900 Update Requirement List.md 9321ebe
+[YongHwan Song] Tue May 6 18:14:53 2025 +0900 Update Requirement List - Section 4 cb8035a
+[YongHwan Song] Tue May 6 16:10:27 2025 +0900 Update Requirement List.md d1a9bdc
+[YongHwan Song] Tue May 6 15:57:54 2025 +0900 Update Use Case Description.md 8bfae05
+[YongHwan Song] Tue May 6 15:41:29 2025 +0900 Update README.md dd486bb
+[YongHwan Song] Tue May 6 15:36:19 2025 +0900 format upload ffe1685
+[YongHwan Song] Tue May 6 15:33:11 2025 +0900 역할 분담 정보 업데이트 063b0cd
+[Chul Heung Kim] Sun May 4 18:12:05 2025 +0900 Initial commit 7e9b547
